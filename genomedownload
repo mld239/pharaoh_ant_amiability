@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+
+while read genomeurls; 
+do
+  wget $genomeurls
+done < genomeurls.txt
+
+
