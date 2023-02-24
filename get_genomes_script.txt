@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Make new directory to store genome files:
+mkdir ./genomes
+
+# While reading each line of the file:
+while read -r line;
+do
+	# Echo the value of $line
+	echo $line
+	
+	# Create the transcriptUrl variable:
+	export transcriptUrl=`echo "$line" | awk -F',' '{print $1}'`
+       
+	# Create the speciescode variable
+	export speciesCode=`echo "$line" | awk -F',' '{print $2}'`
+	   
+	# Create the filename variable with a nice filename and store them in the directory we made:
+	export filename=./genomes/$speciesCode'_genomeAssembly.fna.gz'
+
+	# Download the genome assembly, whose filename is in $filename and URL is stored in $transcriptUrl:
+	wget -O $filename $transcriptUrl
+	
+	#Unzip genome files
+	gzip -d $filename
+	
+  done < genomeURLs.txt
+ 
+  
+  
