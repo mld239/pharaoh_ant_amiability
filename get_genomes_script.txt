@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# First command line option should be genomeurls.txt
+
 # Make new directory to store genome files:
 mkdir ./genomes
 
@@ -24,7 +26,7 @@ do
 	#Unzip genome files
 	gzip -d $filename
 	
-  done < genomeURLs.txt
+  done < $1
  
   
   
