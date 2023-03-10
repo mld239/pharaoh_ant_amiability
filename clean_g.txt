@@ -1,0 +1,27 @@
+#!/bin/bash
+
+#Directing specifically to fna files in the genome directory
+ls ./genomes/*.fna
+
+for raw_genome_file in ./genomes/*.fna; 
+do 
+	#Replacing commas
+	sed -i 's/,/_/g' $raw_genome_file
+
+	#Replacing dashes
+	sed -i 's/-/_/g' $raw_genome_file
+
+	#Replacing open parenthesis
+	sed -i 's/(/_/g' $raw_genome_file
+
+	#Replacing closed parenthesis
+	sed -i 's/)/_/g' $raw_genome_file
+done
+
+
+
+
+
+
+
+
