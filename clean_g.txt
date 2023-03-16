@@ -1,20 +1,25 @@
 #!/bin/bash
 
-#Directing specifically to fna files in the genome directory
-ls ./genomes/*.fna
+# (1) First command line option should be genomes
 
-for raw_genome_file in ./genomes/*.fna; 
+# Copying files to new directory for cleaned genomes
+cp -r $1 genomes_cleaned
+
+# Directing specifically to fna files in the genomes_cleaned directory
+ls ./genomes_cleaned/*.fna
+
+for raw_genome_file in ./genomes_cleaned/*.fna; 
 do 
-	#Replacing commas
+	# Replacing commas
 	sed -i 's/,/_/g' $raw_genome_file
 
-	#Replacing dashes
+	# Replacing dashes
 	sed -i 's/-/_/g' $raw_genome_file
 
-	#Replacing open parenthesis
+	# Replacing open parenthesis
 	sed -i 's/(/_/g' $raw_genome_file
 
-	#Replacing closed parenthesis
+	# Replacing closed parenthesis
 	sed -i 's/)/_/g' $raw_genome_file
 done
 
