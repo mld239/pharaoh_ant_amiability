@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# (1) TransDecoder-TransDecoder-v5.7.0
+
+# Directing specifically to fna files in the genomes_cleaned directory
+ls ./genomes_cleaned/*.fna
+
+# Making directory for peptide sequence results
+mkdir peptide_sequences
+
+
+for cleaned_genome in ./genomes_cleaned/*.fna;
+do
+	echo $cleaned_genome
+	./$1/TransDecoder.LongOrfs -t $cleaned_genome
+	./$1/TransDecoder.Predict -t $cleaned_genome --single_best_only
+done
+
+
+
