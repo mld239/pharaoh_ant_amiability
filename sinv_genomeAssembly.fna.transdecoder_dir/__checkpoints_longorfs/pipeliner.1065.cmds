@@ -1,0 +1,1 @@
+/home/mld02/pharaoh_ant_amiability/TransDecoder-TransDecoder-v5.7.0/util/compute_base_probs.pl ./genomes_cleaned/sinv_genomeAssembly.fna 0 > /home/mld02/pharaoh_ant_amiability/sinv_genomeAssembly.fna.transdecoder_dir/base_freqs.dat
