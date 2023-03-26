@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# First command line option should be genomeurls.txt
+# (1) First command line option should be genome_urls.txt
+
 
 # Make new directory to store genome files:
 mkdir ./genomes
@@ -23,7 +24,7 @@ do
 	# Download the genome assembly, whose filename is in $filename and URL is stored in $transcriptUrl:
 	wget -O $filename $transcriptUrl
 	
-	#Unzip genome files
+	# Unzip genome files
 	gzip -d $filename
 	
   done < $1
