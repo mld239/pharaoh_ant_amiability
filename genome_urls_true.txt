@@ -1,0 +1,12 @@
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/013/373/865/GCF_013373865.1_ASM1337386v2/GCF_013373865.1_ASM1337386v2_cds_from_genomic.fna.gz,mpha
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/651/465/GCF_003651465.1_ASM365146v1/GCF_003651465.1_ASM365146v1_cds_from_genomic.fna.gz,fexs
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/004/794/745/GCA_004794745.1_tlon_1.0/GCA_004794745.1_tlon_1.0_cds_from_genomic.fna.gz,tlon
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/070/985/GCF_003070985.1_ASM307098v1/GCF_003070985.1_ASM307098v1_cds_from_genomic.fna.gz,tcur
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/802/725/GCF_016802725.1_UNIL_Sinv_3.0/GCF_016802725.1_UNIL_Sinv_3.0_cds_from_genomic.fna.gz,sinv
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/227/725/GCF_003227725.1_Cflo_v7.5/GCF_003227725.1_Cflo_v7.5_cds_from_genomic.fna.gz,cflo
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/010/583/005/GCF_010583005.1_Obru_v1/GCF_010583005.1_Obru_v1_cds_from_genomic.fna.gz,obru
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/217/595/GCF_000217595.1_Lhum_UMD_V04/GCF_000217595.1_Lhum_UMD_V04_cds_from_genomic.fna.gz,lhum
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/005/281/655/GCF_005281655.2_TAMU_Nfulva_1.1/GCF_005281655.2_TAMU_Nfulva_1.1_cds_from_genomic.fna.gz,nful
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/594/045/GCF_001594045.1_Acol1.0/GCF_001594045.1_Acol1.0_cds_from_genomic.fna.gz,acol
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/594/045/GCF_001594045.1_Acol1.0/GCF_001594045.1_Acol1.0_cds_from_genomic.fna.gz,acep
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/017/607/565/GCA_017607565.1_ASM1760756v1/GCA_017607565.1_ASM1760756v1_cds_from_genomic.fna.gz,ahey
