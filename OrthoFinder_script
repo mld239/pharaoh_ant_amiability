@@ -1,0 +1,10 @@
+#!/bin/bash
+ 
+#First command line option is the number of cores for diamond (8 for me)
+#Second command line option is the number of cores for OrthoFinder itself (2 for me)
+ 
+#Moving AA translations to OrthoFinder directory
+cp -r ./amino_acid_sequences ./OrthoFinder/amino_acid_sequences
+
+./OrthoFinder/orthofinder -f ./OrthoFinder/amino_acid_sequences -M msa -t $1 -a $2
+
