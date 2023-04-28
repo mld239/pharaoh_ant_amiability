@@ -25,6 +25,7 @@ nucleotide_to_AA_translation <- function(input_file) {
   
   #Converting back to dataframe
   seq_translation_dataframe <- aasset_to_df(aas=seq_translation)
+  colnames(seq_translation_dataframe) <- c("seq.name", "seq.text")
   
   #Converting dataframe to fasta and saving to specific name
   dir.create("amino_acid_sequences")
